@@ -1,14 +1,16 @@
-.cart{
-    width:2.5rem;
+.cart-icon {
+    width: 2.5rem;
 }
 
-.badge{
+.badge {
     background-color: red;
-    padding: .5em;
-    color:white;
-    border-radius: 1px;
+    padding: 0.5em;
+    color: white;
+    border-radius: 5px; /* Adjusted border-radius for a smoother appearance */
 }
-.container {
-    display:flex;
+
+.cart-widget-container {
+    display: flex;
     align-items: center;
+    margin-right: 20px; /* Adjusted margin for spacing between the cart widget and other elements */
 }
